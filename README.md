@@ -3,4 +3,4 @@ This is a single webpage that detects and checks weather condition of various ci
 > Coordinates(Longitude and Latitude)
 > Temperature
 > Pressure
-> HUmidity
+> Humidity
