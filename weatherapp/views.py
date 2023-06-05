@@ -11,7 +11,7 @@ def home(request):
         data = {
             "country_code": str(response["sys"]["country"]),
             "coordinate": str(response["coord"]["lon"]) + "°" + " - " + str(response["coord"]["lat"]) + "°",
-            "temperature": str(response["main"]["temp"]) + "k",
+            "temperature": str(response["main"]["temp"] - 273) + "C",
             "pressure": str(response["main"]["pressure"]) + "pa",
             "humidity": str(response["main"]["humidity"]) + "g.m-3",
         }
